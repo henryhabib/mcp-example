@@ -9,7 +9,7 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-server = "mcp_server_deepdive_deployment_teacher.cli:main"
+mcp_server_deepdive_deployment_teacher = "mcp_server_deepdive_deployment_teacher.cli:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
