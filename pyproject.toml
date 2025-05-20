@@ -13,4 +13,4 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project.scripts]
-mcp-server = "mcp-server-deepdive-deployment-teacher.__main__:main"
+mcp-server = "src.__main__:main"
