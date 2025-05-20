@@ -8,8 +8,6 @@ dependencies = [
     "mcp[cli]>=1.9.0",
 ]
 
-[project.scripts]
-mcp_server_deepdive_deployment_teacher = "mcp_server_deepdive_deployment_teacher.cli:main"
-
-[tool.setuptools]
-package-dir = {"" = "src"}
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
